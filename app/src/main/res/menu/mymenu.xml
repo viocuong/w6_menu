@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mFile"
+        android:title="file"
+        />
+    <item
+
+        android:title="contact">
+        <menu>
+
+            <item android:title="contact by email"
+                android:id="@+id/mEmail"/>
+            <item android:title="contact by Phone"
+                android:id="@+id/mPhone"/>
+        </menu>
+    </item>
+    <item android:title="Exit"
+        android:id="@+id/mExit"/>
+</menu>
